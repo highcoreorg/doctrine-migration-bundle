@@ -61,7 +61,7 @@ final class DoctrineMigrationDiffGeneratorCommand extends Command
             });
 
         $customMigrationTemplate = $this->fileLocator->locate(
-            '@PersistenceBundle/Resources/tpl/migration.tpl');
+            '@DoctrineMigrationBundle/Resources/tpl/migration.tpl');
         $configuration->setCustomTemplate($customMigrationTemplate);
 
         return $this->call(__FUNCTION__, $input, $output);
