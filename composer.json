@@ -1,0 +1,30 @@
+{
+    "name": "highcore/doctrine-migration-bundle",
+    "description": "Doctrine migrations Symfony bundle.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Highcore\\DoctrineMigrationBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "bizrenay@gmail.com"
+        },
+        {
+            "name": "Highcore Team",
+            "homepage": "https://highcore.org/team"
+        }
+    ],
+    "require": {
+        "php": "^8.1 || ^8.2",
+        "doctrine/doctrine-bundle": "^2.9",
+        "symfony/console": "^5.4 || ^6.0",
+        "symfony/dependency-injection": "^5.4 || ^6.0",
+        "doctrine/migrations": "^3.6",
+        "symfony/config": "^5.4 || ^6.0",
+        "symfony/http-kernel": "^5.4 || ^6.0"
+    }
+}
