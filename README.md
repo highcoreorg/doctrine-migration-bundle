@@ -2,7 +2,7 @@
 
 ## Installation
 ```shell
-composer require highcore/doctrine-migrations-bundle
+composer require highcore/doctrine-migration-bundle
 ```
 
 ## Usage
